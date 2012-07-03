@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>chaves-rails by phlipper</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>chaves-rails</h1>
+        <p>chaves.js, bundled for Rails 3.0 and up</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/phlipper/chaves-rails" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/phlipper/chaves-rails/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/phlipper/chaves-rails/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>chaves-rails</h1>
+
+<p><a href="https://github.com/jayroh/chaves.js">Chaves.js</a>, bundled for Rails 3.0 and up.</p>
+
+<h2>Rails 3.1+</h2>
+
+<p>For Rails 3.1 and greater, the files will be added to the asset pipeline and available for you to use.</p>
+
+<p>To enable:</p>
+
+<ul>
+<li>Add the following line to the file <code>app/assets/javascripts/application.js</code> (or other <a href="https://github.com/sstephenson/sprockets">sprockets</a> manifest):</li>
+</ul><div class="highlight">
+<pre><span class="c1">//= require jquery.chaves</span>
+</pre>
+</div>
+
+
+<h3>Installation</h3>
+
+<ul>
+<li>Add <code>chaves-rails</code> to your Gemfile</li>
+<li>Run <code>bundle</code>
+</li>
+</ul><p>Enjoy!</p>
+
+<h2>Rails 3.0</h2>
+
+<p>This gem adds a single generator to Rails 3, <code>chaves:install</code>. Running the generator will install the JavaScript file necessary to use Chaves.</p>
+
+<h3>Installation</h3>
+
+<ul>
+<li>Add <code>chaves-rails</code> to your Gemfile</li>
+<li>Run <code>bundle</code>
+</li>
+<li>Invoke the generator: <code>rails generate chaves:install</code>
+</li>
+<li>Add the following to your layout or view files:</li>
+</ul><div class="highlight">
+<pre><span class="cp">&lt;%=</span> <span class="n">javascript_include_tag</span> <span class="s2">"jquery.chaves"</span> <span class="cp">%&gt;</span><span class="x"></span>
+</pre>
+</div>
+
+
+<p>You're done!</p>
+
+<h2>Contributing</h2>
+
+<ol>
+<li>Fork it</li>
+<li>Create your feature branch (<code>git checkout -b my-new-feature</code>)</li>
+<li>Commit your changes (<code>git commit -am 'Added some feature'</code>)</li>
+<li>Push to the branch (<code>git push origin my-new-feature</code>)</li>
+<li>Create new Pull Request</li>
+</ol><h2>License</h2>
+
+<p><strong>chaves-rails</strong></p>
+
+<ul>
+<li>Freely distributable and licensed under the <a href="http://phlipper.mit-license.org/2012/license.html">MIT license</a>.</li>
+<li>Copyright (c) 2012 Phil Cohen (<a href="mailto:github@phlippers.net">github@phlippers.net</a>) <a href="http://coderwall.com/phlipper"><img src="http://api.coderwall.com/phlipper/endorsecount.png" alt="endorse"></a>
+</li>
+<li><a href="http://phlippers.net/">http://phlippers.net/</a></li>
+</ul><p><strong>Chaves.js</strong></p>
+
+<ul>
+<li>Dual licensed under the MIT and GPL licenses.</li>
+<li>Copyright (c) 2012 Joel Oliveira</li>
+<li><a href="https://github.com/jayroh/chaves.js">https://github.com/jayroh/chaves.js</a></li>
+</ul>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/phlipper">phlipper</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-10172882-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
