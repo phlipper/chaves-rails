@@ -4,40 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>chaves-rails by phlipper</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-
+    <div class="wrapper">
       <header>
         <h1>chaves-rails</h1>
         <p>chaves.js, bundled for Rails 3.0 and up</p>
+        <p class="view"><a href="https://github.com/phlipper/chaves-rails">View the Project on GitHub <small>phlipper/chaves-rails</small></a></p>
+        <ul>
+          <li><a href="https://github.com/phlipper/chaves-rails/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/phlipper/chaves-rails/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/phlipper/chaves-rails">View On <strong>GitHub</strong></a></li>
+        </ul>
       </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/phlipper/chaves-rails" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/phlipper/chaves-rails/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/phlipper/chaves-rails/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
       <section>
         <h1>chaves-rails</h1>
 
@@ -51,11 +39,8 @@
 
 <ul>
 <li>Add the following line to the file <code>app/assets/javascripts/application.js</code> (or other <a href="https://github.com/sstephenson/sprockets">sprockets</a> manifest):</li>
-</ul><div class="highlight">
-<pre><span class="c1">//= require jquery.chaves</span>
-</pre>
-</div>
-
+</ul><div class="highlight"><pre><span class="c1">//= require jquery.chaves</span>
+</pre></div>
 
 <h3>Installation</h3>
 
@@ -78,15 +63,25 @@
 <li>Invoke the generator: <code>rails generate chaves:install</code>
 </li>
 <li>Add the following to your layout or view files:</li>
-</ul><div class="highlight">
-<pre><span class="cp">&lt;%=</span> <span class="n">javascript_include_tag</span> <span class="s2">"jquery.chaves"</span> <span class="cp">%&gt;</span><span class="x"></span>
-</pre>
-</div>
-
+</ul><div class="highlight"><pre><span class="cp">&lt;%=</span> <span class="n">javascript_include_tag</span> <span class="s2">"jquery.chaves"</span> <span class="cp">%&gt;</span><span class="x"></span>
+</pre></div>
 
 <p>You're done!</p>
 
-<h2>Contributing</h2>
+<h2>Contributors</h2>
+
+<p>Many thanks go to the following <a href="https://github.com/phlipper/chaves-rails/graphs/contributors">contributors</a> who have helped to make this gem even better:</p>
+
+<ul>
+<li>
+<strong><a href="https://github.com/jayroh">@jayroh</a></strong>
+
+<ul>
+<li>script updates to Chaves.js</li>
+<li>created <a href="https://github.com/jayroh/chaves.js">Chaves.js</a> :)</li>
+</ul>
+</li>
+</ul><h2>Contributing</h2>
 
 <ol>
 <li>Fork it</li>
@@ -111,12 +106,12 @@
 <li><a href="https://github.com/jayroh/chaves.js">https://github.com/jayroh/chaves.js</a></li>
 </ul>
       </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/phlipper">phlipper</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
-      </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    <footer>
+      <p>Project maintained by <a href="https://github.com/phlipper">phlipper</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
