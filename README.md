@@ -42,6 +42,14 @@ This gem adds a single generator to Rails 3, `chaves:install`. Running the gener
 You're done!
 
 
+## Contributors
+
+Many thanks go to the following [contributors](https://github.com/phlipper/chaves-rails/graphs/contributors) who have helped to make this gem even better:
+
+* **[@jayroh](https://github.com/jayroh)**
+    * script updates to Chaves.js
+    * created [Chaves.js](https://github.com/jayroh/chaves.js) :)
+
 ## Contributing
 
 1. Fork it
