@@ -72,3 +72,7 @@ Many thanks go to the following [contributors](https://github.com/phlipper/chave
 * Dual licensed under the MIT and GPL licenses.
 * Copyright (c) 2012 Joel Oliveira
 * https://github.com/jayroh/chaves.js
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/phlipper/chaves-rails/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
